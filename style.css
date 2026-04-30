@@ -1,0 +1,48 @@
+
+ @import "./reset.css";
+#special{
+    background-color: yellow;
+}
+
+.alert{
+    border: 2px solid grey;
+}
+
+.alert.stop{
+    background: red;  
+}
+
+.alert.go{
+    background: green;
+}
+
+/*Descendant: can be a child or grandchild */ 
+/* article p{
+    color:grey;
+}*/
+
+
+/*child: directly below the parent element*/
+/* article > p{
+    color: blue;
+}*/
+
+/*next sibling selector*/
+h2 +p {
+    font-size: 32px;
+}
+
+/*Nesting*/
+
+article {
+    p{
+        color:grey;
+    }
+}
+
+a{
+    &:hover{ /*same as a:hover{} */
+        color: red;
+    }
+}
+
