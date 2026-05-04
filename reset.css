@@ -140,13 +140,14 @@ padding is optional but i do this because of lists*/
 
 body{
     background-color: #1A1C20;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 10%;
 }
 
 .container{
     max-width: 600px;
-    margin: 0 auto;
     border-radius: 8px;
     background-color: white;
     display: flex;
@@ -154,17 +155,16 @@ body{
     /* transform: translateY(50px); */
 }
 
-main > div {
-    flex: 1;
-}
+
 .right-hand{
     width: 59%;
     padding-left: 42px;
     padding-right: 42px;
-    
+
     .logo{  /*nesting: you can nest using the img element directly instead of the class*/
     width: 47.61px;
     height: 47.61px;
+    object-fit: cover;
 }
 
 * + * {
