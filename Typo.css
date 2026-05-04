@@ -62,5 +62,11 @@ article > section {
     flex-grow: 1;
     background: grey;
 }
-/*Align content focuses on the cross axis while justify content works on the main axis*/
+/*Align-items focuses on the cross axis while justify content works on the main axis*/
 
+.grid-container{
+    background: #245;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid orange;
+}
