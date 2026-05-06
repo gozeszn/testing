@@ -53,10 +53,6 @@ div p{
 .flex-demonstration{ /*This is for the parent*/
     display: flex;
     padding: 1.5rem;
-    
-}
-
-article > section {
     border: 1px solid black;
     padding: 1rem;
     flex-grow: 1;
@@ -64,9 +60,17 @@ article > section {
 }
 /*Align-items focuses on the cross axis while justify content works on the main axis*/
 
-.grid-container{
+.grid-item{
     background: #245;
     color: #fff;
     padding: 10px;
     border: 1px solid orange;
+}
+article{
+    display: grid;
+    grid-template-columns: 300px 500px 40%; 
+    /* the more units you assign here, the more columns given, same applies for rows */
+    grid-template-rows: 200px;
+/* column-gap and row gap gives gap to either column or row */
+gap: 10% ;
 }
