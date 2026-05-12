@@ -8,3 +8,21 @@ console.log("My Name is " + name," I am" + age , "My Country is" + country, "my 
 // the slice function, it takes the number of characters or objects or arrays in a variable. ie let word = JavaScript, if we say slice(0,4); only 4 charcters are chosen, starting from index 0. it'll be Java as the output
 
 //in splice, if we have an array of [5,6,7,8] and splice(1,3). we start at index 1 and remove 3 characters in the array. removed is 6,7,8 while 5 is the new array.
+
+// switch operator: used instead of else if
+let day = "Monday";
+
+switch (day){
+    case "Monday": 
+    console.log("Start of a new week");
+    break;
+    case "Friday":
+    console.log("Almost Weekenddddd!");
+    break;
+    case "Saturday": case "Sunday": 
+    console.log("The weekend is Upon Us");
+    break;
+    default: console.log("Other days of the week");
+    break;
+    case 
+}

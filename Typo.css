@@ -71,8 +71,12 @@ article{
     /* grid-template-columns: 300px 500px 40%;  */
     /* the more units you assign here, the more columns given, same applies for rows */
 
-    grid-template-columns: 1fr, 2fr;
-    grid-template-rows: 200px;
+    /* grid-template-columns: 1fr, 2fr; */
+    grid-template-columns: repeat(5, 50px);
+    /* minmax() func */
+    grid-template-rows: minmax(0, 300px), minmax(0, 1fr);
 /* column-gap and row gap gives gap to either column or row */
-gap: 10% ;
+gap: 10px ;
+
+
 }
