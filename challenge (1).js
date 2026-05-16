@@ -104,6 +104,15 @@ section.appendChild(para9);
 
 // shopping
 
-const button = document.querySelector("button");
-const input = document.querySelector("input");
-const list = document.querySelector("ul");
+// const button = document.querySelector("button");
+// const input = document.querySelector("input");
+// const list = document.querySelector("ul");
+
+// button.addEventListener("click", (event)=>{
+//   event.preventDefault();
+// })
+
+const message = "";
+const practice = document.getElementById("practice-msg");
+
+practice.textContent += message === "" ? `With Chigozirim` : message ;

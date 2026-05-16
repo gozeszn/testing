@@ -24,5 +24,4 @@ switch (day){
     break;
     default: console.log("Other days of the week");
     break;
-    case 
 }
